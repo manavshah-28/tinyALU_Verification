@@ -1,0 +1,304 @@
+m255
+K4
+z2
+Z0 !s99 mlopt
+!s11f MIXED_VERSIONS
+!s11e vcom 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/tinyALU_Verification
+vcoverage
+Z2 2tinyalu_pkg.sv|tinyalu_bfm.sv|tester.sv|coverage.sv|scoreboard.sv|top.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 DXx4 work 11 tinyalu_pkg 0 22 0C61lk0BTae<g[5^<We<i3
+Z5 !s110 1758649773
+!i10b 1
+!s100 Z<TaKAfjLz9Jg3IDdWabT2
+Ii:ZRK@Ah8M[LHMCcam]?I3
+S1
+R1
+w1758649707
+8coverage.sv
+Fcoverage.sv
+!i122 1
+L0 1 93
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2024.1;79
+r1
+!s85 0
+31
+Z8 !s108 1758649772.000000
+Z9 !s107 top.sv|scoreboard.sv|coverage.sv|tester.sv|tinyalu_bfm.sv|tinyalu_pkg.sv|
+Z10 !s90 -f|tb.f|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vscoreboard
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 9`7nb^Z>ZYan[Xn752A4l0
+IWXk>^njbSh1E5U=dP5i0H2
+S1
+R1
+w1758639090
+8scoreboard.sv
+Fscoreboard.sv
+!i122 1
+L0 1 18
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Esingle_cycle
+Z13 w1626701171
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z16 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+Z17 8tinyalu_dut/single_cycle_add_and_xor.vhd
+Z18 Ftinyalu_dut/single_cycle_add_and_xor.vhd
+l0
+Z19 L18 1
+V:Ij;_;FPLzYGNoHM36T<T3
+!s100 ]zLNLiXkF=5o2aD7`HXaW0
+Z20 OL;C;2024.1;79
+32
+Z21 !s110 1758649772
+!i10b 1
+R8
+Z22 !s90 -f|dut.f|
+Z23 !s107 tinyalu_dut/tinyalu.vhd|tinyalu_dut/three_cycle_mult.vhd|tinyalu_dut/single_cycle_add_and_xor.vhd|
+!i113 0
+Z24 tExplicit 1 CvgOpt 0
+Aadd_and_xor
+R14
+R15
+R16
+Z25 DEx4 work 12 single_cycle 0 22 :Ij;_;FPLzYGNoHM36T<T3
+!i122 0
+l40
+L35 55
+VjkdVIS:zWWe6YP958^c<?2
+!s100 W:@2=zMKJzNl_P<OV5DfD2
+R20
+32
+R21
+!i10b 1
+R8
+R22
+R23
+!i113 0
+R24
+vtester
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 [mC4a6<ChV91aL]fcV`Pj0
+I:2fFhiBNhe7_fR6?VfYeW3
+S1
+R1
+w1758649681
+8tester.sv
+Ftester.sv
+!i122 1
+L0 2 52
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Ethree_cycle
+R13
+R14
+R15
+R16
+!i122 0
+R1
+Z26 8tinyalu_dut/three_cycle_mult.vhd
+Z27 Ftinyalu_dut/three_cycle_mult.vhd
+l0
+L21 1
+V?b?Bg9gU??:QULD5<blm`3
+!s100 OWV05@_zBTOgIT[g_`@_V3
+R20
+32
+R21
+!i10b 1
+R8
+R22
+R23
+!i113 0
+R24
+Amult
+R14
+R15
+R16
+Z28 DEx4 work 11 three_cycle 0 22 ?b?Bg9gU??:QULD5<blm`3
+!i122 0
+l41
+L37 36
+Vj6cEdRYiFMdX3EY^<VQ851
+!s100 K_ZLdTS5BO0V_C<=]@faG2
+R20
+32
+R21
+!i10b 1
+R8
+R22
+R23
+!i113 0
+R24
+Etinyalu
+R13
+R14
+R15
+R16
+!i122 0
+R1
+Z29 8tinyalu_dut/tinyalu.vhd
+Z30 Ftinyalu_dut/tinyalu.vhd
+l0
+R19
+VE[:oHD5fdaY_Kk8k;2L0L3
+!s100 IQSjkHCU25DWoNfhGl_?11
+R20
+32
+R21
+!i10b 1
+R8
+R22
+R23
+!i113 0
+R24
+Artl
+R28
+R25
+DEx4 work 7 tinyalu 0 22 E[:oHD5fdaY_Kk8k;2L0L3
+R14
+R15
+R16
+!i122 0
+l89
+L40 118
+VKh1ePSQ5Z8YETCNg6EeQ[2
+!s100 GoS^:b=iBjDfH4M1<@oN=2
+R20
+32
+R21
+!i10b 1
+R8
+R22
+R23
+!i113 0
+R24
+Ytinyalu_bfm
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 A7[;b^nPEX^T:727>LB?[2
+I9aloo3W81:jmch@652j2_2
+S1
+R1
+w1758649607
+8tinyalu_bfm.sv
+Ftinyalu_bfm.sv
+!i122 1
+L0 4 0
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Xtinyalu_pkg
+R2
+R3
+R5
+!i10b 1
+!s100 44AOQ@;270bAoDTbo=X_62
+I0C61lk0BTae<g[5^<We<i3
+S1
+R1
+w1758634640
+8tinyalu_pkg.sv
+Ftinyalu_pkg.sv
+!i122 1
+L0 1 0
+V0C61lk0BTae<g[5^<We<i3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vtop
+R2
+R3
+R5
+!i10b 1
+!s100 6GZITW25^QMnif[VFzOj=3
+IjPkIaAKXX]oKgJc<[8K3L3
+S1
+R1
+w1758649263
+8top.sv
+Ftop.sv
+!i122 1
+L0 1 8
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Ttop_optimized
+R5
+V2n@C0eVGEQ@bl85[JeG6`3
+04 3 4 work top fast 0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o+acc +cover=sbfec+tinyalu(rtl).
+R12
+ntop_optimized
+OL;O;2024.1;79
