@@ -1,0 +1,110 @@
+# do run.do
+# QuestaSim-64 vcom 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 11:18:34 on Sep 24,2025
+# vcom -f dut.f 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity single_cycle
+# -- Compiling architecture add_and_xor of single_cycle
+# -- Compiling entity three_cycle
+# -- Compiling architecture mult of three_cycle
+# -- Compiling entity tinyalu
+# -- Compiling architecture rtl of tinyalu
+# -- Loading entity single_cycle
+# -- Loading entity three_cycle
+# End time: 11:18:34 on Sep 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 11:18:34 on Sep 24,2025
+# vlog -f tb.f 
+# -- Compiling package tinyalu_pkg
+# -- Compiling interface tinyalu_bfm
+# -- Importing package tinyalu_pkg
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:18:34 on Sep 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2024.1 Compiler 2024.02 Feb  1 2024
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# Start time: 11:18:35 on Sep 24,2025
+# vopt top -o top_optimized "+acc" "+cover=sbfec+tinyalu(rtl)." 
+# 
+# Top level modules:
+# 	top
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# 
+# Analyzing design...
+# -- Loading module top
+# -- Importing package tinyalu_pkg
+# -- Loading interface tinyalu_bfm
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading entity tinyalu
+# -- Loading architecture rtl of tinyalu
+# -- Loading entity single_cycle
+# -- Loading entity three_cycle
+# -- Loading architecture add_and_xor of single_cycle
+# -- Loading architecture mult of three_cycle
+# Optimizing 7 design-units (inlining 0/2 module instances, 0/3 architecture instances):
+# -- Optimizing package tinyalu_pkg(fast)
+# -- Optimizing interface tinyalu_bfm(fast__2)
+# -- Optimizing module top(fast)
+# -- Optimizing interface tinyalu_bfm(fast)
+# -- Optimizing architecture rtl of tinyalu
+# -- Optimizing architecture add_and_xor of single_cycle
+# -- Optimizing architecture mult of three_cycle
+# Optimized design name is top_optimized
+# End time: 11:18:36 on Sep 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim top_optimized -coverage 
+# Start time: 11:18:37 on Sep 24,2025
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tinyalu_bfm(fast)
+# Loading work.tinyalu_pkg(fast)
+# Loading work.top(fast)
+# Loading work.tinyalu_bfm(fast__2)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tinyalu(rtl)#1
+# Loading work.single_cycle(add_and_xor)#1
+# Loading work.three_cycle(mult)#1
+# 1
+# 8d xor_op 12 = 009f
+# 76 add_op ed = 0163
+# c6 mul_op aa = 837c
+# ff  no_op 8f = 0163
+# e8 and_op 5c = 0048
+# 65  no_op ff = 0048
+# 00 and_op 00 = 0000
+# 96 and_op ff = 0096
+# ff  no_op ff = 0096
+# ae  no_op cf = 0096
+# ** Note: $stop    : tb_classes/tester.svh(73)
+#    Time: 711 ns  Iteration: 0  Region: /tinyalu_pkg::testbench::execute
+# Break in Task tinyalu_pkg/tester::execute at tb_classes/tester.svh line 73
+# Stopped at tb_classes/tester.svh line 73
+# End time: 11:18:38 on Sep 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
