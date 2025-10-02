@@ -1,6 +1,6 @@
 # do run.do
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 15:49:37 on Sep 27,2025
+# Start time: 10:37:37 on Oct 01,2025
 # vlog dice_pkg.sv 
 # -- Compiling package dice_pkg
 # -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
@@ -9,10 +9,10 @@
 # 
 # Top level modules:
 # 	--none--
-# End time: 15:49:38 on Sep 27,2025, Elapsed time: 0:00:01
+# End time: 10:37:38 on Oct 01,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 1
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 15:49:38 on Sep 27,2025
+# Start time: 10:37:38 on Oct 01,2025
 # vlog top.sv 
 # -- Compiling module top
 # -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
@@ -21,10 +21,10 @@
 # 
 # Top level modules:
 # 	top
-# End time: 15:49:38 on Sep 27,2025, Elapsed time: 0:00:00
+# End time: 10:37:39 on Oct 01,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim -c top 
-# Start time: 15:49:38 on Sep 27,2025
+# Start time: 10:37:39 on Oct 01,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
 # Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
@@ -104,5 +104,5 @@
 # [TEST_DONE]     1
 # ** Note: $finish    : C:/questasim64_2024.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
 #    Time: 0 ns  Iteration: 217  Instance: /top
-# End time: 15:49:42 on Sep 27,2025, Elapsed time: 0:00:04
+# End time: 10:37:44 on Oct 01,2025, Elapsed time: 0:00:05
 # Errors: 0, Warnings: 1
